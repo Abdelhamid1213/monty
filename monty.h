@@ -47,6 +47,7 @@ void pop(stack_t **stack, unsigned int line_number);
 void swap(stack_t **stack, unsigned int line_number);
 void add(stack_t **stack, unsigned int line_number);
 void nop(stack_t **stack, unsigned int line_number);
+void sub(stack_t **stack, unsigned int line_number);
 void free_stack(stack_t *stack);
 void (*get_op_func(char *opcode))(stack_t **, unsigned int);
 void p_err_ext(const char *message, FILE *file, char *line, stack_t *stack);
